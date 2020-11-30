@@ -16,14 +16,14 @@ https://docs.docker.com/docker-for-windows/install/
 >$ sudo apt-get update
 >$ sudo apt-get install python3 python3-pip python3-tk
 
-### Install Python3 on Windows 10 Pro:
+#### Install Python3 on Windows 10 Pro:
 Download the Python3 installer from the official python site:
 
 https://www.python.org/downloads/
 
 While installing choose to install pip and all optional features.
 
-### Checking python3 and docker installtions:
+#### Checking python3 and docker installtions:
 Open the command line of each OS:
 >$ docker version (On Ubuntu, Debian and Windows)
 
@@ -31,7 +31,7 @@ Open the command line of each OS:
 
 >$ pytho3n --version (On Ubuntu, Debian)
 
-### Install Docker SDK for Python3:
+#### Install Docker SDK for Python3:
 Installing docker sdk for python3 is done by the python pip package installer for python.
 Checking if pip3 installed:
 >$ pip3 --version
