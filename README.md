@@ -33,5 +33,7 @@ Open the command line of each OS:
 
 ### Install Docker SDK for Python3:
 Installing docker sdk for python3 is done by the python pip package installer for python.
-Cheking if pip3 installed:
->$ pip3 --version (On Ubuntu, Debian and Windows)
+Checking if pip3 installed:
+>$ pip3 --version
+Installing the docker sdk:
+>$ pip3 install docker
