@@ -9,5 +9,5 @@ https://docs.docker.com/engine/install/ubuntu/
 #### Install Docker on Debian:
 https://docs.docker.com/engine/install/debian/
 
-#### Install Docker on Windows 10 Pro using Docker Desktop:
-
+#### Install Docker on Windows 10 Pro with Docker Desktop:
+https://docs.docker.com/docker-for-windows/install/
