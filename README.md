@@ -1,6 +1,11 @@
 
 ## Docker Python GUI App for managing containers in a basic way
 
+### App Summary
+The app is used to manage docker containers on a basic level on the local system using Python3 Tkinter GUI module for the interface and Docker SDK module for interacting with the Docker Engine.
+
+The options the app gives are based on existing docker commands for containers and images. 
+
 ### Tested with Ubuntu, Debian and Windows 10 Pro
 
 #### Install Docker on ubuntu:
