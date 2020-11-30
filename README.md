@@ -1,5 +1,5 @@
 
-# Docker Python GUI App for managing containers in a basic way
+## Docker Python GUI App for managing containers in a basic way
 
 ### Tested with Ubuntu, Debian and Windows 10 Pro
 
@@ -29,5 +29,9 @@ Open the command line of each OS:
 
 >$ python --version (On Windows)
 
->$ python --version (On Ubuntu, Debian)
+>$ pytho3n --version (On Ubuntu, Debian)
 
+### Install Docker SDK for Python3:
+Installing docker sdk for python3 is done by the python pip package installer for python.
+Cheking if pip3 installed:
+>$ pip3 --version (On Ubuntu, Debian and Windows)
