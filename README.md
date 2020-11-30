@@ -29,7 +29,7 @@ Open the command line of each OS:
 
 >$ python --version (On Windows)
 
->$ pytho3n --version (On Ubuntu, Debian)
+>$ python3 --version (On Ubuntu, Debian)
 
 #### Install Docker SDK for Python3:
 Installing docker sdk for python3 is done by the python pip package installer for python.
