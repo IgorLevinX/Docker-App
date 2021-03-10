@@ -67,4 +67,4 @@ After filling the the text boxes for what needed the user chooses the desired do
 
 After that the user clicks the **Submit** button to start the operation.
 
-* The **Get** option in the container and image sections is not based on docker command by the same name and used to get a conatainer or image by its name or all container or images if name not used.
+* The **Get** option in the container and image sections is not based on docker command by the same name and used to get a container or image by its name or all container or images if name not used.
