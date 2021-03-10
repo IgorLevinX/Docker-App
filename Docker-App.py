@@ -89,7 +89,7 @@ def run_container():
         # Getting container ports to be used with new container
         if text_boxes[2].get() != '':
             try:
-                port = literal_eval('{' + text_boxes[2].get() + '}')
+                ports = literal_eval('{' + text_boxes[2].get() + '}')
             except ValueError:
                 messagebox.showerror('Run Container', f'{text_boxes[2].get()} is not a valid input for ports parameter')
                 return None
@@ -100,7 +100,7 @@ def run_container():
 
         # Trying to create a new container by given parametrs if not throwing an exception by relavane of the parameter or the container itself
         try:
-            client.containers.run(image=image, name=name, ports=port, environment=environment, detach=True)
+            client.containers.run(image=image, name=name, ports=ports, environment=environment, detach=True)
         except docker.errors.ImageNotFound:
             messagebox.showerror('Run Container', f'Image {image} not found or exist')
         except docker.errors.APIError as exeception:
