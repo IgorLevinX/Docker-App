@@ -50,7 +50,7 @@ Installing the docker sdk:
 Open the command line of each OS and start the app using python3:
 >$ python3 Docker-App.py
 #### Using the app
-The app has for text boxes to enter the following informtaion in the next format:
+The app contains text boxes to enter the following informtaion in the next format:
 - Image Name (Examples: nginx, nginx:latest etc...)
 
 - Container Name (Examples: mynginx, mynginx:latest etc...)
